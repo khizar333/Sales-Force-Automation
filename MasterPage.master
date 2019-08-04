@@ -1,0 +1,351 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="login.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="main.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+<form id="form1" runat="server">
+ 
+<div>
+       <div class="logo">
+       <div class="container">
+       <div class="row">
+
+       <div class="col-md-4">
+       <img src="Pics/sfapng.png" style="height:190px" />
+       </div>
+
+       <div class="col-md-4">
+
+       </div>
+
+       <div class="col-md-4">
+
+       <ul>
+       <br />  <br />  <br />  <br />   
+       <i style="color:gray;font-size:19px" class="fa  fa-envelope" aria-hidden="true"></i> &nbsp; info@sfa.com <br />
+       <i style="color:gray;font-size:22px" class="fa  fa-globe" aria-hidden="true"></i> &nbsp;  www.Sfa.com <br />
+       <i style="color:gray;font-size:22px" class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;  03471839450   <br />
+       <i style="color:gray;font-size:22px" class="fa fa-whatsapp" aria-hidden="true"></i> &nbsp;  03471839450   <br />
+       <i style="color:gray;font-size:22px" class="fa fa-google-plus-official" aria-hidden="true"></i> &nbsp; khizar.hayat2558@gmail.com   <br />      
+       </ul>
+
+       </div>
+
+                 </div>
+                     </div>
+             </div>
+
+
+
+
+   <%-- navbar--%>
+
+
+    
+    <div class="row">
+        <div class="col-md-12 paa">
+
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+             
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Default.aspx">Home<span class="sr-only">(current)</span> </a>
+                        
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.aspx">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.aspx">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactuss.aspx">Contact Us</a>
+                        </li>
+
+                   
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 
+                                Services
+
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="fieldforcetracking.aspx">Field Force Tracking</a>
+                                <a class="dropdown-item" href="geofencing.aspx">Geofencing</a>
+                                <a class="dropdown-item" href="#">Order Taking</a>
+                                  <a class="dropdown-item" href="#">Attendence Report</a>
+                            </div>
+                        </li>
+
+
+
+
+
+                           <li class="nav-item">
+                            <a class="nav-link" href="blog.aspx">Blog</a>
+                        </li>
+
+
+
+
+                    &nbsp;  &nbsp;  &nbsp; 
+
+
+
+
+
+                          <li class="nav-item">
+                              <a class="nav-link" href="admin/login.aspx">Admin LogIn</a>
+                         
+                        </li>
+                      
+
+
+
+             
+
+                 <%--<li>--%>
+                 <%-- <button < onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+                  <div id="id01" class="modal">
+
+                      <form class="modal-content animate" action="/action_page.php">
+                          <div class="imgcontainer">
+                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+                              <!--<img src="Pics/login.ico" />-->
+                          </div>
+
+                          <div class="container">
+                              <label for="uname"><b>Email Address</b></label>
+                              <input type="text" placeholder="Email Address" name="eaddress" required>
+
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+
+                              <button type="submit">Login</button>
+                              <label>
+                                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                          </div>
+
+                          <div class="container" style="background-color:#f1f1f1">
+                              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                              <span class="psw">Forgot <a href="#">password?</a></span>
+                          </div>
+                      </form>
+                  </div>
+
+
+              </li>--%>
+
+
+                       
+                        
+
+                    </ul>
+                   
+                </div>
+            </nav>
+
+
+
+
+
+
+        </div>
+
+     
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+
+
+
+<%--footer--%>
+
+    
+
+
+
+             <div class="row ar">
+             
+                 <div class="col-md-3 rbo">
+                     <p><img src="Pics/sale.png" style="height:90px;width:140px"></p>
+                      <p1>The App is versatile enough to be customized as per the industry requirements and is, therefore, getting excellent reviews from our prospects.</p1>
+                    
+                     </div>
+
+            
+
+
+                  <div class="col-md-3 rbo rob">
+                     <p>Company</p>
+                     
+                      
+                      <p1>
+
+                          <ul  >
+
+                              <li><a class="faf" href="Default.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
+                              <li><a class="faf" href="aboutus.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> About us</a></li>
+                              <li><a class="faf" href="contactuss.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Contact us</a></li>
+                              <li><a class="faf" href="privacypolicy.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Privacy Policy</a></li>
+
+                          </ul>  
+
+                      </p1>
+                      
+                      
+                      
+                   </div>
+
+
+
+
+                 <div class="col-md-3 rbo">
+                     <p>Solutions</p>
+                      
+                     <p1>
+
+                         <ul>
+
+                              <li><a class="faf" href="fieldforcetracking.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Field Force Tracking</a></li>
+                              <li><a class="faf" href="geofencing.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Geofencing</a></li>
+                              <li><a class="faf" href="blog.aspx"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blogs</a></li>
+                             <li><a class="faf" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Attendence Report</a></li>
+
+                         </ul>
+
+                     </p1>
+                    
+                   </div>
+
+
+
+
+                 <div class="col-md-3 rbo">
+                     <p>Connect with us</p>
+                    <p1>
+                        <ul>
+                            
+                            
+                             <li >
+                                 <a class="faf" href="#" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+                             </li>
+
+                            <li >
+                                 <a class="faf" href="#" target="_blank"> <i class="fa fa-twitter-square" aria-hidden="true"></i>  &nbsp; Twitter</a>
+                             </li>
+
+                            <li>                            
+                                 <a class="faf" href="#" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp; LinkedIn</a>
+                             </li>
+
+                            <li>
+                                 <a class="faf" href="#" target="_blank"> <i class="fa fa-skype" aria-hidden="true"></i>  &nbsp; Skype</a>
+                             </li>
+
+
+                        </ul> 
+                    </p1>
+                 </div>
+
+
+
+
+             </div>
+
+
+
+        
+         
+         
+    
+
+    <div class="row cr">
+        <div class="col-md-12">
+            <p>Copyright © 2018 SalesForce Automation. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>

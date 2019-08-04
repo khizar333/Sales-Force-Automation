@@ -1,0 +1,648 @@
+﻿
+
+
+
+
+
+       /*........ main page........*/
+
+
+
+
+.logo{
+    padding-top:7px;
+    height:200px;
+    width:100%;
+}
+
+
+
+
+
+.row{margin:0px;
+     padding:0px;
+}
+
+
+
+/*.sfa{
+    color:white;
+    padding-top:10px;
+}*/
+
+
+
+
+
+.nav-item:hover{
+    color:white;
+}
+
+
+
+
+
+
+.bg-light {
+     margin-top:0px;
+     background-color: #97aabd!important;
+     margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+.bg-light ul{
+    
+    list-style-type:none;
+}
+
+
+.bg-light ul li{
+    display:inline;
+
+}
+
+.bg-light ul li a {
+    transition:all 1s;
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    padding:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+
+
+.bg-light ul li a:hover{
+   
+    background-color:white;
+    color:cornflowerblue;
+}
+
+
+
+.dropdown-menu{
+      background-color: #97aabd!important;
+}
+
+
+
+
+
+
+
+
+
+.w3-content{
+    height:400px;
+    width:100%;
+    padding-top:0px;
+    margin-top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+.paa{
+    padding:0px;
+
+    }
+
+
+
+
+
+.ar{
+    background-color:#041740;
+    color:#ffffff;
+    padding:20px;
+    margin-top:20px;
+    padding-top:45px;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+
+
+
+.br{
+    margin-top:40px;
+    padding-left:40px;
+    /*background-image:url("Pics/map.png");*/
+}
+
+
+
+
+.cr{
+    height:75px;
+    background-color:#243860;
+    text-align:center;
+    padding-top:25px;
+    color:white;
+}
+
+
+
+
+
+.rbo{
+    height:260px;
+  
+}
+
+
+
+.rob{
+    padding-left:0px;
+
+}
+
+
+
+
+.rbo p{
+    
+    font-size:30px;
+    font-weight:400;
+        
+}
+
+
+
+
+.rbo p1{
+    font-weight:200;
+}
+
+
+
+
+
+
+.fa {
+    color:white;
+
+}
+
+
+
+.fa:hover {
+    color:white;
+  
+    opacity: 0.9;
+}
+
+
+
+.faf{
+    color:white;
+}
+
+
+
+
+.mh{
+    min-height:500px;
+
+}
+
+
+
+
+
+.mb{
+    padding-top:40px;
+    background-color:#ebe7e7;
+    height:250px;
+
+}
+
+
+
+.nb{
+    height:170px;
+      color:white;
+    padding-top:25px;
+     background-color:#ff6a00;
+}
+
+
+
+.vb{
+     height:170px;
+    color:white;
+    padding-top:25px;
+     background-color:#243860;
+}
+
+
+
+.cv{
+    margin-top:7px;
+    padding-top:20px;
+    height:150px;
+    color:white;
+    background-color:#47a7eb;
+
+}
+
+
+
+
+.cb{
+    padding-top:60px;
+    padding-left:210px;
+    padding-right:210px;
+}
+
+
+
+
+#zz{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+.hb{
+    padding-top:40px;
+    height:250px;
+    color:white;
+    background-color:#3b82b4;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+
+
+
+.card{
+    border-radius:6px;
+    background-color:#f8f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*.......about us page.......*/
+
+
+
+
+   .about-banner  {
+       padding-top:40px;
+       height:350px;
+    background: url() no-repeat fixed center top / cover;
+    background-image: url("Pics/banner.png");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color:initial;
+    color: #fff;
+}
+
+
+
+
+
+.product-about {
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+
+  
+}
+
+
+.marketplace-about{
+    padding-top:30px;
+    background-color:#f8f6f6;
+    height:330px;
+}
+
+
+
+
+
+.fex{
+    padding-top:30px;
+    background-color:#f8f6f6;
+    height:430px;
+}
+
+
+
+
+
+
+.team{
+    height:180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*...........contact us page...........*/
+
+
+
+  
+
+
+
+
+.map{
+    padding-top:200px;
+    height:350px;
+   
+     background: url() no-repeat fixed center top / cover;
+    background-image: url("Pics/maped.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color:red;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*.............field force tracking page..............*/
+
+
+
+
+
+
+
+
+
+      
+   .field  {
+       padding-top:40px;
+       height:350px;
+    background: url() no-repeat fixed center top / cover;
+    background-image:url("Pics/Bi-in-Field-Force-Automation-Software.png");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color:initial;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+   
+
+.field-force {
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+
+  
+}
+
+
+
+
+
+
+
+.force {
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*..............  geo fencing page ...........*/
+
+
+
+
+
+
+
+
+     .page {
+   
+    
+      padding-top:50px;
+    height: 350px;
+    background: url()no-repeat fixed center top/cover;
+    background-image:url("Pics/geofencing-featured.jpg");
+  
+    background-position-x: center;
+    background-position-y: top;
+    background-size:100%,100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-orgin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: #fff;
+}
+
+
+
+
+
+.para{
+
+    margin-top:50px;
+  
+ text-align:center;
+   
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+   
+}
+
+
+
+
+.abccc{
+    margin-top:30px;
+    text-align:center;
+   
+}
+
+
+
+
+.pageon{
+    margin-left:900px;
+}
+
+
+
+
+
+
+
+
+
+
+   /*............... products page...........*/
+
+
+
+    
+   
+
+
+     .pru {
+   
+
+    
+      padding-top:50px;
+    height: 350px;
+    background: url()no-repeat fixed center top/cover;
+    background-image:url("Pics/slashhh.png");
+    background-position-y: top;
+    background-size:100%,100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-orgin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+     /*...............Blog page..............*/
+
+
+
+
+
+
+
+
+
+
+        .blog {
+   
+    
+      padding-top:50px;
+    height: 350px;
+    background: url()no-repeat fixed center top/cover;
+    background-image:url("Pics/why_are_blogs_such_a_big_deal.jpg");
+  
+    background-position-x: center;
+    background-position-y: top;
+    background-size:100%,100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-orgin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: #fff;
+}
